@@ -1,0 +1,250 @@
+img {
+  width: initial;
+  max-width: 100%;
+}
+
+/* 選單通用 */
+.mainBar {
+  width: 100%;
+  margin-top: 15.5vw;
+}
+.btn-secondary::after {
+  display: inline-block;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 0.3em solid;
+  border-right: 0.3em solid transparent;
+  border-bottom: 0;
+  border-left: 0.3em solid transparent;
+}
+.btn-secondary {
+  background-image: linear-gradient(0deg, #397EB8 0%, #529FD1 33% , #56A6D1 100%);
+}
+.btn-check:focus+.btn-secondary, .btn-secondary:focus {
+  box-shadow: none;
+}
+/* .btn-check:active+.btn-secondary, .btn-check:checked+.btn-secondary, .btn-secondary.active, .btn-secondary:active, .show>.btn-secondary.dropdown-toggle { */
+.btn.btn-secondary:active {
+  background-image: linear-gradient(to top, #0C658F, #09608F);
+}
+.btn-check:active+.btn-secondary:focus, .btn-check:checked+.btn-secondary:focus, .btn-secondary.active:focus, .btn-secondary:active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+
+/* 款式選單 */
+.opportunity .btn {
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  height: 80px;
+  width: 100%;
+  border-radius: 0 !important;
+}
+.opportunity-menu {
+  position: relative;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  height: 25vw;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+.opportunity-menu.show {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.opportunity-menu img {
+  max-height: 20vw;
+}
+.opportunity {
+  width: 80%;
+}
+
+
+/* 時機選單 */
+.mainBar .btn {
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 !important;
+}
+.shape-menu {
+  position: relative;
+  z-index: 1000;
+  display: none;
+  min-width: 10rem;
+  height: 25vw;
+  padding: 0.5rem 0;
+  margin: 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 0.25rem;
+}
+.shape-menu.show {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+.shape-menu img {
+  max-height: 20vw;
+}
+
+.shape {
+  width: 20%;
+}
+
+
+@media screen and (min-width: 767px) {
+  .mainBar {
+    background-image: linear-gradient(0deg, #182C72 0%, #1B3283 25% , #1B3386 100%);
+    margin-top: 60px;
+    height: 60px;
+  }
+  .gg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* 時機選單 */
+  .opportunity a img:active {
+    background-image: linear-gradient(0deg, #294199 0%, #1B3283 75% , #182C72 100%);
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+  }
+  .opportunity {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(0deg, #182C72 0%, #1B3283 25% , #1B3386 100%);
+  }
+  /* 款式選單 */
+  .dropdown-menu {
+    width: 100%;
+    padding: 0.25rem;
+  }
+  .shape {
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .mainBar {
+    margin-top: 78.33333px;
+    height: 68px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .mainBar {
+    margin-top: 100px;
+    height: 85px;
+    /* max-width: 1440px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+  
+  .shape {
+    width: 280px;
+  }
+}
+
+
+
+/* ver727 */
+/* KV-479-767px */
+.sec-1{
+  width: 100%;
+  height: auto;
+
+}
+.kv_block{
+  bottom: -5%;
+  z-index: 2;
+}
+.kv_font1{
+  width: 28vw;
+  top: 17% ;
+  left: 43%;
+}
+.kv_font2{
+  width: 45vw;
+  top: 30% ;
+  left: 50%;
+}
+
+.kv_product{
+  width: 45vw;
+  bottom: -5%;
+  right: 5%;
+  z-index: 2;
+}
+
+/* Body-1 */
+.sec-2 {
+  position: relative;
+  height: 2400px;
+}
+.body_bg1{
+  top: -11%;
+  z-index: -2;
+}
+.body_title_1{
+  width: 65vw;
+  padding-top: 8vw;
+}
+
+.body_title_2{
+  width: 55vw;
+  padding-top: 3vw;
+}
+
+.body_product{
+  padding-top: 1.5vw;
+  width: 48vw;
+  padding-left: 5vw;
+}
+
+.ball_1{
+  top:30vw;
+  left:5%;
+}
+.ball_1_size{
+  width: 30vw;
+}
+
+.ball1_font1{
+  top:24% ;
+  right:24%;
+  width:16vw ;
+}
+
+.ball1_font2{
+  top:38% ;
+  right:17%;
+  width:20vw ;
+}
+
+.ball1_font3{
+  top:58% ;
+  right:5%;
+  width:25vw ;
+}
