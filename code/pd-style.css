@@ -201,10 +201,10 @@ img {
 /* Body-1 */
 .sec-2 {
   position: relative;
-  height: 2400px;
+  height: 283vw;
 }
 .body_bg1{
-  top: -11%;
+  top: -18.5vw;
   z-index: -2;
 }
 .body_title_1{
@@ -223,11 +223,12 @@ img {
   padding-left: 5vw;
 }
 
+/* 球 */
 .ball_1{
   top:30vw;
   left:5%;
 }
-.ball_1_size{
+.ball_size{
   width: 30vw;
 }
 
@@ -236,15 +237,119 @@ img {
   right:24%;
   width:16vw ;
 }
-
 .ball1_font2{
   top:38% ;
   right:17%;
   width:20vw ;
 }
-
 .ball1_font3{
   top:58% ;
   right:5%;
   width:25vw ;
+}
+
+.ball_2{
+  top:41vw;
+  right:4%;
+}
+.ball2_font1{
+  top:16% ;
+  right:28%;
+  width:13vw ;
+}
+.ball2_font2{
+  top:36% ;
+  right:5%;
+  width:12vw ;
+}
+.ball2_font3{
+  top:35% ;
+  right:5%;
+  width:26vw ;
+}
+
+.ball_3{
+  top:62vw;
+  left:14%;
+} 
+.ball3_font1{
+  top:28% ;
+  right:14%;
+  width:20vw ;
+}
+.ball3_font2{
+  top:26% ;
+  right:15%;
+  width:13vw ;
+}
+/* point */
+
+
+.point1_font{
+  top: 97vw ;
+  right: 15%;
+  width: 38vw;
+}
+.point1_paper{
+  top: 98vw ;
+  left: 13%;
+  width: 33vw;
+}
+.point1_m1{
+  width: 9vw;
+  top: 101vw;
+  left: 17.5% ;
+}
+.point1_m2{
+  width: 7vw;
+  top: 95vw;
+  left: 23% ;
+}
+.point1_m3{
+  width: 4vw;
+  top: 94.5vw;
+  left: 29% ;
+}
+.point2_font{
+  width: 82vw ;
+  top: 126vw;
+  left: 14%;
+}
+.point3_font{
+  width: 65vw;
+  top: 164vw ;
+  left: 21%; 
+}
+.point3_30{
+  width: 9.6vw;
+  top: 166vw ;
+  left: 22.5%; 
+}
+.point3_m1{
+  width: 5vw;
+  top: 166vw ;
+  left: 32.5%; 
+}
+.point3_m2{
+  width: 6vw;
+  top: 178.3vw;
+  left: 30%; 
+}
+
+/* Body-2 */
+.sec-3{
+  margin-top: -15vw;
+  position: relative;
+}
+
+.logo-1{
+  bottom: 9.4%;
+  left: 32%;
+  width: 27vw;
+}
+
+.logo-2{
+  bottom: 5.5%;
+  left: 32%;
+  width: 55vw;
 }
