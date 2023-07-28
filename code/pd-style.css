@@ -204,7 +204,7 @@ img {
   height: 283vw;
 }
 .body_bg1{
-  top: -18.5vw;
+  top: -19vw;
   z-index: -2;
 }
 .body_title_1{
@@ -284,7 +284,10 @@ img {
 }
 /* point */
 
-
+.point1{
+  top:2vw;
+  width: 100%;
+}
 .point1_font{
   top: 97vw ;
   right: 15%;
@@ -310,10 +313,19 @@ img {
   top: 94.5vw;
   left: 29% ;
 }
+
+.point2{
+  width: 100%;
+  top:3vw
+}
 .point2_font{
   width: 82vw ;
   top: 126vw;
   left: 14%;
+}
+.point3{
+  width: 100%;
+  top:2vw
 }
 .point3_font{
   width: 65vw;
