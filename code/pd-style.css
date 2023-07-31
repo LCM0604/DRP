@@ -170,7 +170,7 @@ img {
 
 
 /* ver727 */
-/* KV-479-767px */
+/* 360-500px */
 .sec-1{
   width: 100%;
   height: auto;
@@ -318,14 +318,26 @@ img {
   width: 100%;
   top:3vw
 }
+.point2_bg{
+  top:125vw;
+  width: 24vw;
+  right:26% ;
+}
+.point2_gif{
+  top:121vw;
+  right:26%;
+  width: 28vw;
+  z-index: 0;
+}
 .point2_font{
   width: 82vw ;
   top: 126vw;
   left: 14%;
+  z-index: 2;
 }
 .point3{
   width: 100%;
-  top:2vw
+  top:4vw
 }
 .point3_font{
   width: 65vw;
@@ -365,3 +377,53 @@ img {
   left: 32%;
   width: 55vw;
 }
+
+@media screen and (min-width: 500px) {
+  
+.point1{
+  top:0vw;
+}
+.point2{
+  top:1vw;
+}
+.point2_bg{
+  width:22vw;
+}
+.point2_gif{
+  width:26vw ;
+}
+
+.point3{
+  top:1vw;
+}
+
+}
+
+
+@media screen and (min-width: 767px) {
+  
+.kv_font1{
+  width: 20vw;
+  top:7%;
+  left:49;
+}
+
+.kv_font2{
+  width: 44vw;
+  top: 12%;
+  left:48%;
+}
+
+.kv_product{
+  width: 38vw;
+  bottom: -2%;
+  right: 10%;
+}
+
+.body_bg1{
+  top:-26vw
+}
+  
+  
+}
+
