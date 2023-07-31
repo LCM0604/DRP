@@ -378,6 +378,16 @@ img {
   width: 55vw;
 }
 
+.pd_mb{
+  width: 120px;
+}
+
+.bd_menu{
+  height: 140px;
+  width: 100%;
+  background-color: #E7FBFF;
+}
+
 @media screen and (min-width: 500px) {
   
 .point1{
@@ -423,6 +433,12 @@ img {
   top:-26vw
 }
   
-  
+.bd_menu{
+  height: 182px;
 }
 
+.pd_mb{
+  width: auto;
+}
+
+}
