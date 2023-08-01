@@ -298,6 +298,15 @@ img {
   left: 13%;
   width: 33vw;
 }
+.point1_gif{
+  width: 30vw;
+  top: 86vw;
+  left: 10%;
+}
+
+
+
+
 .point1_m1{
   width: 9vw;
   top: 101vw;
@@ -350,14 +359,14 @@ img {
   left: 22.5%; 
 }
 .point3_m1{
-  width: 5vw;
+  width: 4.5vw;
   top: 166vw ;
   left: 32.5%; 
 }
 .point3_m2{
-  width: 6vw;
-  top: 178.3vw;
-  left: 30%; 
+  width: 5.2vw;
+  top: 180vw;
+  left: 31%; 
 }
 
 /* Body-2 */
@@ -388,6 +397,145 @@ img {
   background-color: #E7FBFF;
 }
 
+/* an */
+
+.animate__rubberBand{
+  -webkit-animation-name: rubberBand;
+  animation-name:rubberBand;
+  animation-duration: 3s;
+}
+@keyframes rubberBand{
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);}
+  15% {
+      -webkit-transform: scale3d(1.25,.75,1);
+      transform: scale3d(1.25,.75,1);
+  }  
+  20% {
+    -webkit-transform: scale3d(.75,1.25,1);
+    transform: scale3d(.75,1.25,1);
+  }
+  25% {
+    -webkit-transform: scale3d(1.15,.85,1);
+    transform: scale3d(1.15,.85,1);
+  }
+  32.5% {
+    -webkit-transform: scale3d(.95,1.05,1);
+    transform: scale3d(.95,1.05,1);
+  }
+  37.5% {
+    -webkit-transform: scale3d(1.05,.95,1);
+    transform: scale3d(1.05,.95,1);
+  }
+  50%{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  100%{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+.animate__heartBeat{
+  -webkit-animation-name: heartBeat;
+  animation-name:heartBeat;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes heartBeat{
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  14% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  28%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  42% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+  }
+  56%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  100%{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.animate__pulse_30{
+  -webkit-animation-name: pulse_30;
+  animation-name:pulse_30;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse_30{
+  0% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  10% {
+    -webkit-transform: scale3d(1.15,1.15,1.15);
+    transform: scale3d(1.15,1.15,1.15);
+  }
+  30% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+}
+
+
+/* point3_m*/
+.shake-vertical {
+  animation-delay: 0;
+	-webkit-animation: shake-vertical ease-in-out infinite 3s  ;
+	        animation: shake-vertical ease-in-out  infinite 3s  ;
+}
+.shake-vertical2 {
+  animation-delay: 0;
+	-webkit-animation: shake-vertical ease-in-out infinite 3s reverse;
+	        animation: shake-vertical ease-in-out infinite 3s reverse;
+}
+@-webkit-keyframes shake-vertical {
+
+  20%,60% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+
+  40%,80%{
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+}
+@keyframes shake-vertical {
+
+  20%,60% {
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+  }
+
+  40%,80%{
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
+  }
+}
+
+
+/*  other size  */
 @media screen and (min-width: 500px) {
   
 .point1{
@@ -405,6 +553,43 @@ img {
 .point3{
   top:1vw;
 }
+
+.point3_m1{
+  width: 5vw;
+  top: 166vw ;
+  left: 32.5%; 
+}
+.point3_m2{
+  width: 6vw;
+  top: 179vw;
+  left: 30%; 
+}
+
+@-webkit-keyframes shake-vertical {
+
+  20%,60% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+
+  40%,80%{
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+}
+@keyframes shake-vertical {
+
+  20%,60% {
+    -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+  }
+
+  40%,80%{
+    -webkit-transform: translateY(8px);
+            transform: translateY(8px);
+  }
+}
+
 
 }
 
