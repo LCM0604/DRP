@@ -388,11 +388,11 @@ img {
 }
 
 .pd_mb{
-  width: 120px;
+  width: 90px;
 }
 
 .bd_menu{
-  height: 140px;
+  height: 110px;
   width: 100%;
   background-color: #E7FBFF;
 }
@@ -568,25 +568,25 @@ img {
 @-webkit-keyframes shake-vertical {
 
   20%,60% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
   }
 
   40%,80%{
-    -webkit-transform: translateY(8px);
-            transform: translateY(8px);
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
 }
 @keyframes shake-vertical {
 
   20%,60% {
-    -webkit-transform: translateY(-8px);
-            transform: translateY(-8px);
+    -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
   }
 
   40%,80%{
-    -webkit-transform: translateY(8px);
-            transform: translateY(8px);
+    -webkit-transform: translateY(4px);
+            transform: translateY(4px);
   }
 }
 
